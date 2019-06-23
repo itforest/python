@@ -72,8 +72,36 @@
         4) 키값 출력
             코드 : cur_price.keys()
             출력 : dict_keys(['naver','daeshin'])    //dict_keys !!
-        5) 딕셔너리키 -> 리스트로 변환
+        5) 딕셔너리키,벨류 -> 리스트로 변환
             코드 : list(cur_price.keys())
             출력 : ['naver','daeshin']
+            코드 : list(cur_price.values())
+            출력 : [80000,30000]
+         6) 키 찾기
+             코드 : 'Samsung' in cur_price.keys()
+             출력 : False
+[4] 함수
+        1) 함수 생성
+           코드 : def print_ntimes(n):
+                           for i in range(n):
+                                      print("대신증권")
+           출력코드 : print_ntimes(2)
+           출력 : 대신증권
+                      대신증권
+        2) 반환값이 있는 함수
+            코드 : def cal_upper(price):
+                             increment = price * 0.3
+                             upper_price = price + increment
+                             return upper_price
+            출력코드 : cal_upper(10000)
+                    출력 : 13000
+        3) 두개의 값 반환하기
+             
+ 
+
+
+
+
+
 
 
