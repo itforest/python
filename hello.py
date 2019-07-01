@@ -94,9 +94,22 @@
                              upper_price = price + increment
                              return upper_price
             출력코드 : cal_upper(10000)
-                    출력 : 13000
+            출력 : 13000
         3) 두개의 값 반환하기
-             
+             코드 : def cal_upper_lower(price)
+                              offset = price * 0.3
+                              upper = price + offset
+                              lower = price - offset
+                              return ( upper, lower)
+             출력코드 : (upper,lower) = cal_upper_lower(10000)
+                     출력 :  upper
+                                 13000
+                                 lower
+                                   7000
+
+[5] 모듈
+    - 모듈 : 파일 단위로 작성된 파이썬 코드
+
  
 
 
